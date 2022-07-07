@@ -21,6 +21,14 @@ public class App
         branching.exercise_2();
         branching.exercise_3();
         branching.exercise_4();
-        branching.exercise_5();*/
+        branching.exercise_5();
+
+        Cycles cycles = new Cycles();
+        cycles.exercise_1();
+        cycles.exercise_2();
+        cycles.exercise_3();
+        cycles.exercise_4();
+        cycles.exercise_5();
+        cycles.exercise_7();*/
     }
 }
