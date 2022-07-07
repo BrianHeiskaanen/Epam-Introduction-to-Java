@@ -14,6 +14,13 @@ public class App
         linearPrograms.exercise_3();
         linearPrograms.exercise_4();
         linearPrograms.exercise_5();
-        linearPrograms.exercise_6();*/
+        linearPrograms.exercise_6();
+
+        Branching branching = new Branching();
+        branching.exercise_1();
+        branching.exercise_2();
+        branching.exercise_3();
+        branching.exercise_4();
+        branching.exercise_5();*/
     }
 }
