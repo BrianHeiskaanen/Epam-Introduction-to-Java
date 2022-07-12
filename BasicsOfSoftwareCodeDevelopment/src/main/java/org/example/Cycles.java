@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Cycles {
@@ -97,7 +98,9 @@ public class Cycles {
     }
 
     public void exercise_6() {
-
+        for(int i = 0; i < 255; i++) {
+            System.out.println(i + " - " + (char)i);
+        }
     }
 
     public void exercise_7() {
@@ -136,7 +139,17 @@ public class Cycles {
         System.out.print("Enter value b: ");
         int b = scanner.nextInt();
 
-
+        int[] arr = new int[10];
+        while(a != 0){
+            arr[a % 10]++;
+            a /=10;
+        }
+        System.out.print("The numbers included in both numbers: ");
+        while(b != 0){
+            if(arr[b % 10] != 0)
+                System.out.print(b % 10 + ", ");
+            b /=10;
+        }
 
         System.out.println();
     }
